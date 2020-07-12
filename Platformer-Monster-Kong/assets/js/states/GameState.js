@@ -112,7 +112,6 @@ var GameState = {
         this.barrels.forEach(barrel => {
             if (barrel.x < 10 && barrel.y > 600) {
                 barrel.kill();
-                console.log(11);
             }
         })
 
@@ -143,12 +142,10 @@ var GameState = {
         //Action Button
         this.actionButton.events.onInputDown.add(() => {
             this.player.customParams.mustJump = true;
-            console.log('1')
         }, this);
 
         this.actionButton.events.onInputUp.add(() => {
             this.player.customParams.mustJump = false;
-            console.log('0')
         }, this);
 
 
