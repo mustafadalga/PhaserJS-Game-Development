@@ -24,6 +24,9 @@ var PreloadState = {
 
         //import json file
         this.load.text('level', 'assets/data/level.json');
+
+
+
     },
     create: function() {
         this.state.start('HomeState');

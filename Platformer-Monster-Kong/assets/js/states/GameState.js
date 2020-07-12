@@ -57,7 +57,6 @@ var GameState = {
 
         this.player.body.collideWorldBounds = true; //Ekran dısına taşmayı engelle  
 
-
         //Kamera takip etme.
         this.game.camera.follow(this.player);
 
